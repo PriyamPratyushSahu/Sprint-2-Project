@@ -1,0 +1,825 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Default_suite" class="navigator-link">
+              <span class="suite-name border-passed">Default suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
+                    <span>C:\Users\KIIT\AppData\Local\Temp\testng-eclipse-979874310\testng-customsuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Default_suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Default_suite" class="navigator-link ">
+                    <span>1 group</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Default_suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Default_suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Default_suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Default_suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">22 methods,   22 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Default_suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.RunnerFile3" class="method navigator-link" hash-for-method="Scenario(&quot;Check Each drop down functionality&quot;, &quot;Optional[Check drop down functionality of next border]&quot;)">Scenario("Check Each drop down functionality", "Optional[Check drop down functionality of next border]")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.RunnerFile3" class="method navigator-link" hash-for-method="Scenario(&quot;To check Popular Choices options&quot;, &quot;Optional[To check each functionality under buy dropdown options...)">Scenario("To check Popular Choices options", "Optional[To check each functionality under buy dropdown options...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.RunnerFile3" class="method navigator-link" hash-for-method="Scenario(&quot;Check User is not able to login with invalid mobile number&quot;, &quot;Optional[Login Check]&quot;)">Scenario("Check User is not able to login with invalid mobile number", "Optional[Login Check]")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.RunnerFile3" class="method navigator-link" hash-for-method="Scenario(&quot;Check User is able to login with valid email id&quot;, &quot;Optional[Login Check]&quot;)">Scenario("Check User is able to login with valid email id", "Optional[Login Check]")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.RunnerFile3" class="method navigator-link" hash-for-method="Scenario(&quot;Check User is able to login with valid mobile number&quot;, &quot;Optional[Login Check]&quot;)">Scenario("Check User is able to login with valid mobile number", "Optional[Login Check]")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.RunnerFile3" class="method navigator-link" hash-for-method="Scenario(&quot;To check Property Type options&quot;, &quot;Optional[To check each functionality under Rent dropdown options]...)">Scenario("To check Property Type options", "Optional[To check each functionality under Rent dropdown options]...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.RunnerFile3" class="method navigator-link" hash-for-method="Scenario(&quot;Sell Option Functionality&quot;, &quot;Optional[Verification of Sell Options Functionality]&quot;)">Scenario("Sell Option Functionality", "Optional[Verification of Sell Options Functionality]")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.RunnerFile3" class="method navigator-link" hash-for-method="Scenario(&quot;To check For For Owner options&quot;, &quot;Optional[To check each functionality under sell dropdown options]...)">Scenario("To check For For Owner options", "Optional[To check each functionality under sell dropdown options]...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.RunnerFile3" class="method navigator-link" hash-for-method="Scenario(&quot;Top Menu Options&quot;, &quot;Optional[Verification of functionality of Top Menu Options]&quot;)">Scenario("Top Menu Options", "Optional[Verification of functionality of Top Menu Options]")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.RunnerFile3" class="method navigator-link" hash-for-method="Scenario(&quot;Check User is not able to login with invalid email id&quot;, &quot;Optional[Login Check]&quot;)">Scenario("Check User is not able to login with invalid email id", "Optional[Login Check]")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.RunnerFile3" class="method navigator-link" hash-for-method="Scenario(&quot;To check Explore options&quot;, &quot;Optional[To check each functionality under Rent dropdown options]&quot;)">Scenario("To check Explore options", "Optional[To check each functionality under Rent dropdown options]")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.RunnerFile3" class="method navigator-link" hash-for-method="Scenario(&quot;To validate if user is unable to login with null email id/mobile number and password&quot;, &quot;Optional[Lo...)">Scenario("To validate if user is unable to login with null email id/mobile number and password", "Optional[Lo...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.RunnerFile3" class="method navigator-link" hash-for-method="Scenario(&quot;To check For Bank Partners options&quot;, &quot;Optional[To check each functionality under home loans dropdow...)">Scenario("To check For Bank Partners options", "Optional[To check each functionality under home loans dropdow...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.RunnerFile3" class="method navigator-link" hash-for-method="Scenario(&quot;Buy Option Functionality&quot;, &quot;Optional[Verification of Buy Options Functionality]&quot;)">Scenario("Buy Option Functionality", "Optional[Verification of Buy Options Functionality]")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.RunnerFile3" class="method navigator-link" hash-for-method="Scenario(&quot;To check For For Selling Tools options&quot;, &quot;Optional[To check each functionality under sell dropdown ...)">Scenario("To check For For Selling Tools options", "Optional[To check each functionality under sell dropdown ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.RunnerFile3" class="method navigator-link" hash-for-method="Scenario(&quot;To check For Apply Now options&quot;, &quot;Optional[To check each functionality under home loans dropdown op...)">Scenario("To check For Apply Now options", "Optional[To check each functionality under home loans dropdown op...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.RunnerFile3" class="method navigator-link" hash-for-method="Scenario(&quot;Commercial Option Functionality&quot;, &quot;Optional[Verification of Commercial Options Functionality]&quot;)">Scenario("Commercial Option Functionality", "Optional[Verification of Commercial Options Functionality]")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.RunnerFile3" class="method navigator-link" hash-for-method="Scenario(&quot;To check Budget options&quot;, &quot;Optional[To check each functionality under Rent dropdown options]&quot;)">Scenario("To check Budget options", "Optional[To check each functionality under Rent dropdown options]")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.RunnerFile3" class="method navigator-link" hash-for-method="Scenario(&quot;To check Property Types options&quot;, &quot;Optional[To check each functionality under buy dropdown options]...)">Scenario("To check Property Types options", "Optional[To check each functionality under buy dropdown options]...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.RunnerFile3" class="method navigator-link" hash-for-method="Scenario(&quot;PG Option Functionality&quot;, &quot;Optional[Verification of PG Options Functionality]&quot;)">Scenario("PG Option Functionality", "Optional[Verification of PG Options Functionality]")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.RunnerFile3" class="method navigator-link" hash-for-method="Scenario(&quot;Plot Option Functionality&quot;, &quot;Optional[Verification of Plot Options Functionality]&quot;)">Scenario("Plot Option Functionality", "Optional[Verification of Plot Options Functionality]")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.RunnerFile3" class="method navigator-link" hash-for-method="Scenario(&quot;To check Popular Choices options&quot;, &quot;Optional[To check each functionality under Rent dropdown option...)">Scenario("To check Popular Choices options", "Optional[To check each functionality under Rent dropdown option...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Default_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Default_suite" class="panel Default_suite">
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">runner.RunnerFile3</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Scenario(&quot;Check Each drop down functionality&quot;, &quot;Optional[Check drop down functionality of next border]&quot;)">
+                  </a> <!-- Scenario("Check Each drop down functionality", "Optional[Check drop down functionality of next border]") -->
+                  <span class="method-name">Scenario</span>
+                  <span class="parameters">("Check Each drop down functionality", "Optional[Check drop down functionality of next border]")</span>
+                  <em>
+(Runs Cucumber Feature)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Scenario(&quot;To check Popular Choices options&quot;, &quot;Optional[To check each functionality under buy dropdown options...)">
+                  </a> <!-- Scenario("To check Popular Choices options", "Optional[To check each functionality under buy dropdown options...) -->
+                  <span class="method-name">Scenario</span>
+                  <span class="parameters">("To check Popular Choices options", "Optional[To check each functionality under buy dropdown options]")</span>
+                  <em>
+(Runs Cucumber Feature)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Scenario(&quot;Check User is not able to login with invalid mobile number&quot;, &quot;Optional[Login Check]&quot;)">
+                  </a> <!-- Scenario("Check User is not able to login with invalid mobile number", "Optional[Login Check]") -->
+                  <span class="method-name">Scenario</span>
+                  <span class="parameters">("Check User is not able to login with invalid mobile number", "Optional[Login Check]")</span>
+                  <em>
+(Runs Cucumber Feature)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Scenario(&quot;Check User is able to login with valid email id&quot;, &quot;Optional[Login Check]&quot;)">
+                  </a> <!-- Scenario("Check User is able to login with valid email id", "Optional[Login Check]") -->
+                  <span class="method-name">Scenario</span>
+                  <span class="parameters">("Check User is able to login with valid email id", "Optional[Login Check]")</span>
+                  <em>
+(Runs Cucumber Feature)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Scenario(&quot;Check User is able to login with valid mobile number&quot;, &quot;Optional[Login Check]&quot;)">
+                  </a> <!-- Scenario("Check User is able to login with valid mobile number", "Optional[Login Check]") -->
+                  <span class="method-name">Scenario</span>
+                  <span class="parameters">("Check User is able to login with valid mobile number", "Optional[Login Check]")</span>
+                  <em>
+(Runs Cucumber Feature)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Scenario(&quot;To check Property Type options&quot;, &quot;Optional[To check each functionality under Rent dropdown options]...)">
+                  </a> <!-- Scenario("To check Property Type options", "Optional[To check each functionality under Rent dropdown options]...) -->
+                  <span class="method-name">Scenario</span>
+                  <span class="parameters">("To check Property Type options", "Optional[To check each functionality under Rent dropdown options]")</span>
+                  <em>
+(Runs Cucumber Feature)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Scenario(&quot;Sell Option Functionality&quot;, &quot;Optional[Verification of Sell Options Functionality]&quot;)">
+                  </a> <!-- Scenario("Sell Option Functionality", "Optional[Verification of Sell Options Functionality]") -->
+                  <span class="method-name">Scenario</span>
+                  <span class="parameters">("Sell Option Functionality", "Optional[Verification of Sell Options Functionality]")</span>
+                  <em>
+(Runs Cucumber Feature)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Scenario(&quot;To check For For Owner options&quot;, &quot;Optional[To check each functionality under sell dropdown options]...)">
+                  </a> <!-- Scenario("To check For For Owner options", "Optional[To check each functionality under sell dropdown options]...) -->
+                  <span class="method-name">Scenario</span>
+                  <span class="parameters">("To check For For Owner options", "Optional[To check each functionality under sell dropdown options]")</span>
+                  <em>
+(Runs Cucumber Feature)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Scenario(&quot;Top Menu Options&quot;, &quot;Optional[Verification of functionality of Top Menu Options]&quot;)">
+                  </a> <!-- Scenario("Top Menu Options", "Optional[Verification of functionality of Top Menu Options]") -->
+                  <span class="method-name">Scenario</span>
+                  <span class="parameters">("Top Menu Options", "Optional[Verification of functionality of Top Menu Options]")</span>
+                  <em>
+(Runs Cucumber Feature)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Scenario(&quot;Check User is not able to login with invalid email id&quot;, &quot;Optional[Login Check]&quot;)">
+                  </a> <!-- Scenario("Check User is not able to login with invalid email id", "Optional[Login Check]") -->
+                  <span class="method-name">Scenario</span>
+                  <span class="parameters">("Check User is not able to login with invalid email id", "Optional[Login Check]")</span>
+                  <em>
+(Runs Cucumber Feature)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Scenario(&quot;To check Explore options&quot;, &quot;Optional[To check each functionality under Rent dropdown options]&quot;)">
+                  </a> <!-- Scenario("To check Explore options", "Optional[To check each functionality under Rent dropdown options]") -->
+                  <span class="method-name">Scenario</span>
+                  <span class="parameters">("To check Explore options", "Optional[To check each functionality under Rent dropdown options]")</span>
+                  <em>
+(Runs Cucumber Feature)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Scenario(&quot;To validate if user is unable to login with null email id/mobile number and password&quot;, &quot;Optional[Lo...)">
+                  </a> <!-- Scenario("To validate if user is unable to login with null email id/mobile number and password", "Optional[Lo...) -->
+                  <span class="method-name">Scenario</span>
+                  <span class="parameters">("To validate if user is unable to login with null email id/mobile number and password", "Optional[Login Check]")</span>
+                  <em>
+(Runs Cucumber Feature)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Scenario(&quot;To check For Bank Partners options&quot;, &quot;Optional[To check each functionality under home loans dropdow...)">
+                  </a> <!-- Scenario("To check For Bank Partners options", "Optional[To check each functionality under home loans dropdow...) -->
+                  <span class="method-name">Scenario</span>
+                  <span class="parameters">("To check For Bank Partners options", "Optional[To check each functionality under home loans dropdown options]")</span>
+                  <em>
+(Runs Cucumber Feature)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Scenario(&quot;Buy Option Functionality&quot;, &quot;Optional[Verification of Buy Options Functionality]&quot;)">
+                  </a> <!-- Scenario("Buy Option Functionality", "Optional[Verification of Buy Options Functionality]") -->
+                  <span class="method-name">Scenario</span>
+                  <span class="parameters">("Buy Option Functionality", "Optional[Verification of Buy Options Functionality]")</span>
+                  <em>
+(Runs Cucumber Feature)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Scenario(&quot;To check For For Selling Tools options&quot;, &quot;Optional[To check each functionality under sell dropdown ...)">
+                  </a> <!-- Scenario("To check For For Selling Tools options", "Optional[To check each functionality under sell dropdown ...) -->
+                  <span class="method-name">Scenario</span>
+                  <span class="parameters">("To check For For Selling Tools options", "Optional[To check each functionality under sell dropdown options]")</span>
+                  <em>
+(Runs Cucumber Feature)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Scenario(&quot;To check For Apply Now options&quot;, &quot;Optional[To check each functionality under home loans dropdown op...)">
+                  </a> <!-- Scenario("To check For Apply Now options", "Optional[To check each functionality under home loans dropdown op...) -->
+                  <span class="method-name">Scenario</span>
+                  <span class="parameters">("To check For Apply Now options", "Optional[To check each functionality under home loans dropdown options]")</span>
+                  <em>
+(Runs Cucumber Feature)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Scenario(&quot;Commercial Option Functionality&quot;, &quot;Optional[Verification of Commercial Options Functionality]&quot;)">
+                  </a> <!-- Scenario("Commercial Option Functionality", "Optional[Verification of Commercial Options Functionality]") -->
+                  <span class="method-name">Scenario</span>
+                  <span class="parameters">("Commercial Option Functionality", "Optional[Verification of Commercial Options Functionality]")</span>
+                  <em>
+(Runs Cucumber Feature)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Scenario(&quot;To check Budget options&quot;, &quot;Optional[To check each functionality under Rent dropdown options]&quot;)">
+                  </a> <!-- Scenario("To check Budget options", "Optional[To check each functionality under Rent dropdown options]") -->
+                  <span class="method-name">Scenario</span>
+                  <span class="parameters">("To check Budget options", "Optional[To check each functionality under Rent dropdown options]")</span>
+                  <em>
+(Runs Cucumber Feature)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Scenario(&quot;To check Property Types options&quot;, &quot;Optional[To check each functionality under buy dropdown options]...)">
+                  </a> <!-- Scenario("To check Property Types options", "Optional[To check each functionality under buy dropdown options]...) -->
+                  <span class="method-name">Scenario</span>
+                  <span class="parameters">("To check Property Types options", "Optional[To check each functionality under buy dropdown options]")</span>
+                  <em>
+(Runs Cucumber Feature)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Scenario(&quot;PG Option Functionality&quot;, &quot;Optional[Verification of PG Options Functionality]&quot;)">
+                  </a> <!-- Scenario("PG Option Functionality", "Optional[Verification of PG Options Functionality]") -->
+                  <span class="method-name">Scenario</span>
+                  <span class="parameters">("PG Option Functionality", "Optional[Verification of PG Options Functionality]")</span>
+                  <em>
+(Runs Cucumber Feature)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Scenario(&quot;Plot Option Functionality&quot;, &quot;Optional[Verification of Plot Options Functionality]&quot;)">
+                  </a> <!-- Scenario("Plot Option Functionality", "Optional[Verification of Plot Options Functionality]") -->
+                  <span class="method-name">Scenario</span>
+                  <span class="parameters">("Plot Option Functionality", "Optional[Verification of Plot Options Functionality]")</span>
+                  <em>
+(Runs Cucumber Feature)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Scenario(&quot;To check Popular Choices options&quot;, &quot;Optional[To check each functionality under Rent dropdown option...)">
+                  </a> <!-- Scenario("To check Popular Choices options", "Optional[To check each functionality under Rent dropdown option...) -->
+                  <span class="method-name">Scenario</span>
+                  <span class="parameters">("To check Popular Choices options", "Optional[To check each functionality under Rent dropdown options]")</span>
+                  <em>
+(Runs Cucumber Feature)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+        </div> <!-- panel Default_suite -->
+        <div panel-name="test-xml-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\KIIT\AppData\Local\Temp\testng-eclipse-979874310\testng-customsuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;runner.RunnerFile3&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Default test --&gt;
+&lt;/suite&gt; &lt;!-- Default suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Default test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">cucumber</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">Scenario</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Default_suite');
+function tableData_Default_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(22);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'Scenario')
+data.setCell(0, 2, 'runner.RunnerFile3')
+data.setCell(0, 3, 155081);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'Scenario')
+data.setCell(1, 2, 'runner.RunnerFile3')
+data.setCell(1, 3, 153120);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'Scenario')
+data.setCell(2, 2, 'runner.RunnerFile3')
+data.setCell(2, 3, 135807);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'Scenario')
+data.setCell(3, 2, 'runner.RunnerFile3')
+data.setCell(3, 3, 105196);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'Scenario')
+data.setCell(4, 2, 'runner.RunnerFile3')
+data.setCell(4, 3, 100868);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'Scenario')
+data.setCell(5, 2, 'runner.RunnerFile3')
+data.setCell(5, 3, 99130);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'Scenario')
+data.setCell(6, 2, 'runner.RunnerFile3')
+data.setCell(6, 3, 80156);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'Scenario')
+data.setCell(7, 2, 'runner.RunnerFile3')
+data.setCell(7, 3, 70168);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'Scenario')
+data.setCell(8, 2, 'runner.RunnerFile3')
+data.setCell(8, 3, 59578);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'Scenario')
+data.setCell(9, 2, 'runner.RunnerFile3')
+data.setCell(9, 3, 56756);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'Scenario')
+data.setCell(10, 2, 'runner.RunnerFile3')
+data.setCell(10, 3, 56156);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'Scenario')
+data.setCell(11, 2, 'runner.RunnerFile3')
+data.setCell(11, 3, 52420);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'Scenario')
+data.setCell(12, 2, 'runner.RunnerFile3')
+data.setCell(12, 3, 50709);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'Scenario')
+data.setCell(13, 2, 'runner.RunnerFile3')
+data.setCell(13, 3, 48505);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'Scenario')
+data.setCell(14, 2, 'runner.RunnerFile3')
+data.setCell(14, 3, 46895);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'Scenario')
+data.setCell(15, 2, 'runner.RunnerFile3')
+data.setCell(15, 3, 43735);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'Scenario')
+data.setCell(16, 2, 'runner.RunnerFile3')
+data.setCell(16, 3, 42971);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'Scenario')
+data.setCell(17, 2, 'runner.RunnerFile3')
+data.setCell(17, 3, 28284);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'Scenario')
+data.setCell(18, 2, 'runner.RunnerFile3')
+data.setCell(18, 3, 27295);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'Scenario')
+data.setCell(19, 2, 'runner.RunnerFile3')
+data.setCell(19, 3, 26858);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'Scenario')
+data.setCell(20, 2, 'runner.RunnerFile3')
+data.setCell(20, 3, 26209);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'Scenario')
+data.setCell(21, 2, 'runner.RunnerFile3')
+data.setCell(21, 3, 26200);
+window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 24 minutes</span>
+              <div id="times-div-Default_suite">
+              </div> <!-- times-div-Default_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">runner.RunnerFile3</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUpCucumber</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpClass</span>
+                <span class="method-start">948 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Scenario("Top Menu Options", "Optional[Verification of functionality of Top Menu Options]")</span>
+                <span class="method-start">949 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpClass</span>
+                <span class="method-start">44693 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Scenario("Check User is able to login with valid mobile number", "Optional[Login Check]")</span>
+                <span class="method-start">44693 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpClass</span>
+                <span class="method-start">70904 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Scenario("Check User is able to login with valid email id", "Optional[Login Check]")</span>
+                <span class="method-start">70905 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpClass</span>
+                <span class="method-start">99190 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Scenario("Check User is not able to login with invalid mobile number", "Optional[Login Check]")</span>
+                <span class="method-start">99190 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpClass</span>
+                <span class="method-start">126487 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Scenario("Check User is not able to login with invalid email id", "Optional[Login Check]")</span>
+                <span class="method-start">126487 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Scenario("To validate if user is unable to login with null email id/mobile number and password", "Optional[Lo...)</span>
+                <span class="method-start">153349 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpClass</span>
+                <span class="method-start">153349 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpClass</span>
+                <span class="method-start">179551 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Scenario("Check Each drop down functionality", "Optional[Check drop down functionality of next border]")</span>
+                <span class="method-start">179551 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpClass</span>
+                <span class="method-start">222523 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Scenario("Buy Option Functionality", "Optional[Verification of Buy Options Functionality]")</span>
+                <span class="method-start">222523 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpClass</span>
+                <span class="method-start">282102 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Scenario("Sell Option Functionality", "Optional[Verification of Sell Options Functionality]")</span>
+                <span class="method-start">282102 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpClass</span>
+                <span class="method-start">334524 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Scenario("PG Option Functionality", "Optional[Verification of PG Options Functionality]")</span>
+                <span class="method-start">334524 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpClass</span>
+                <span class="method-start">390682 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Scenario("Plot Option Functionality", "Optional[Verification of Plot Options Functionality]")</span>
+                <span class="method-start">390682 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpClass</span>
+                <span class="method-start">437579 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Scenario("Commercial Option Functionality", "Optional[Verification of Commercial Options Functionality]")</span>
+                <span class="method-start">437579 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Scenario("To check Popular Choices options", "Optional[To check each functionality under buy dropdown options...)</span>
+                <span class="method-start">488289 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpClass</span>
+                <span class="method-start">488289 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpClass</span>
+                <span class="method-start">593486 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Scenario("To check Property Types options", "Optional[To check each functionality under buy dropdown options]...)</span>
+                <span class="method-start">593487 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpClass</span>
+                <span class="method-start">746609 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Scenario("To check Popular Choices options", "Optional[To check each functionality under Rent dropdown option...)</span>
+                <span class="method-start">746609 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Scenario("To check Property Type options", "Optional[To check each functionality under Rent dropdown options]...)</span>
+                <span class="method-start">845740 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpClass</span>
+                <span class="method-start">845740 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpClass</span>
+                <span class="method-start">981549 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Scenario("To check Budget options", "Optional[To check each functionality under Rent dropdown options]")</span>
+                <span class="method-start">981550 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpClass</span>
+                <span class="method-start">1061707 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Scenario("To check Explore options", "Optional[To check each functionality under Rent dropdown options]")</span>
+                <span class="method-start">1061707 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpClass</span>
+                <span class="method-start">1216789 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Scenario("To check For For Owner options", "Optional[To check each functionality under sell dropdown options]...)</span>
+                <span class="method-start">1216789 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpClass</span>
+                <span class="method-start">1265295 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Scenario("To check For For Selling Tools options", "Optional[To check each functionality under sell dropdown ...)</span>
+                <span class="method-start">1265295 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpClass</span>
+                <span class="method-start">1322052 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Scenario("To check For Apply Now options", "Optional[To check each functionality under home loans dropdown op...)</span>
+                <span class="method-start">1322053 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpClass</span>
+                <span class="method-start">1392222 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Scenario("To check For Bank Partners options", "Optional[To check each functionality under home loans dropdow...)</span>
+                <span class="method-start">1392222 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDownClass</span>
+                <span class="method-start">1493092 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
