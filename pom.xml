@@ -1,9 +1,23 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>Group_5</groupId>
-  <artifactId>Magic_Bricks</artifactId>
+  <artifactId>Sprint_2_Project_Magic_Bricks</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <dependencies>
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-surefire-plugin</artifactId>
+        <version>3.0.0-M5</version>
+        <configuration>
+          <includes>
+            <include>RunnerFile.java</include>
+          </includes>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+   <dependencies>
    <dependency>
    <groupId>com.sun</groupId>
    <artifactId>tools</artifactId>
@@ -11,10 +25,17 @@
    <scope>system</scope>
    <systemPath>C:\Program Files\Java\jdk1.8.0_171\lib/tools.jar</systemPath>
  </dependency> 
+ 
 <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-core -->
 <dependency>
     <groupId>io.cucumber</groupId>
     <artifactId>cucumber-core</artifactId>
+    <version>7.2.3</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-testng -->
+<dependency>
+    <groupId>io.cucumber</groupId>
+    <artifactId>cucumber-testng</artifactId>
     <version>7.2.3</version>
 </dependency>
 
@@ -93,8 +114,12 @@
 <dependency>
     <groupId>org.seleniumhq.selenium</groupId>
     <artifactId>selenium-java</artifactId>
-    <version>4.1.2</version>
+    <version>4.1.1</version>
 </dependency>
+
+ 
+
+
 <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-chrome-driver -->
 <dependency>
     <groupId>org.seleniumhq.selenium</groupId>
@@ -103,12 +128,13 @@
 </dependency>
  
 
-<!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-java -->
+
+  <!-- https://mvnrepository.com/artifact/org.dom4j/dom4j -->
 <dependency>
-    <groupId>io.cucumber</groupId>
-    <artifactId>cucumber-java</artifactId>
-    <version>5.7.0</version>
-</dependency>  	
+    <groupId>org.dom4j</groupId>
+    <artifactId>dom4j</artifactId>
+    <version>2.1.3</version>
+</dependency>	
 <!-- https://mvnrepository.com/artifact/org.apache.poi/poi -->
 <dependency>
     <groupId>org.apache.poi</groupId>
@@ -116,19 +142,15 @@
     <version>5.2.1</version>
 </dependency>
 
-<!-- https://mvnrepository.com/artifact/org.apache.poi/poi-ooxml -->
+<!-- https://mvnrepository.com/artifact/org.apache.poi/poi-excelant -->
 <dependency>
     <groupId>org.apache.poi</groupId>
-    <artifactId>poi-ooxml</artifactId>
+    <artifactId>poi-excelant</artifactId>
     <version>5.2.1</version>
 </dependency>
 
-<!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-testng -->
-<dependency>
-    <groupId>io.cucumber</groupId>
-    <artifactId>cucumber-testng</artifactId>
-    <version>7.2.3</version>
-</dependency>
-
+ 
+  	
   </dependencies>
+ 
 </project>
